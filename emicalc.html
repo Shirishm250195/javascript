@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style >
+        .calc{
+ 
+            background-color: aquamarine;
+    width: 500px;
+    height: 307px;
+        }
+        .title{
+            background-color: aqua;
+        }
+    </style>
+       <script src="emicalc.js"></script>
+</head>
+<body>
+    <div class="calc">
+        <label class="title" >My Calc</label>
+        <br>
+            <input id="salary" type="text" placeholder="Enter Salary" value="" >
+            <input id="homeloan" type="text" placeholder="Enter Home Loan" value=""  >
+            <input id="carloan" type="text" placeholder="Enter car loan" value="" >
+            <input id="creditcard" type="text" placeholder="Enter credit card bill" value="" >
+           
+            <button onclick="saving()"> Saving</button>
+            <button onclick="emitotal()">EMI total</button>
+            <label id="savingRes">saving result</label>
+            <label id="emitotal">EMI total</label>
+ 
+       
+</div>
+</body>
+</html>
